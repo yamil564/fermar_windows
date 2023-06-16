@@ -1,0 +1,202 @@
+/*
+|---------------------------------------------------------------
+| PHP panel.php
+|---------------------------------------------------------------
+| @Autor: Kenyi M. Caycho Coyocusi
+| @Fecha de creacion: 07/12/2010
+| @Organizacion: KND S.A.C.
+|---------------------------------------------------------------
+| Pagina de estilos para la pagina del panel el cual importa a otras paginas de estilos
+*/
+
+@import "themes/ui.jqgrid.css";
+@import "style_general.css";
+@import "estilos_generales.css";
+@import "pestanas.css";
+@import "message.css";
+
+html{   
+    background-color:#f6f6f7;
+}
+#contenedor{
+    clear:both;
+    position:relative;
+    width:auto;
+
+}
+#nav_izquierda{
+    width:270px;
+    float:left;
+    position:relative;
+}
+#frm_control{
+    width:910px;
+}
+.accordion {
+    width: 250px;
+    margin: 1em .5em;
+}
+.accordion h3 {
+    margin: 0;
+    background: white;
+    border: 1px solid #E3E3E3;
+    color:#000000;
+    display:block;
+    height:34px;
+    margin-bottom: 1px;
+    width: 270px;
+}
+.accordion h3:hover {
+    background:url("Images/menu-bg.GIF") repeat-x scroll #F1F1F1;
+}
+.accordion h3 a {
+    margin-left: 5px;
+    line-height:30px;
+    position: relative;
+    top: -10px;
+    text-decoration:none;
+    color:#072d5e;
+    font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    font-size: 12px;
+    border: 0;
+    outline: 0 none;
+}
+.accordion h3 a:active {
+    border: 0;
+    color:#072d5e;
+
+}
+.accordion h3 a:visited {
+    border: 0;
+    color:#072d5e;
+}
+
+.accordion h3 img {
+    margin-top: 2px;
+    margin-left: 5px;
+    /*margin-top: 2px;*/
+}
+.accordion div {
+    padding: .5em .25em;
+    border-bottom: 1px solid #E3E3E3 ;
+    border-left:  1px solid #E3E3E3 ;
+    border-right: 1px solid #E3E3E3 ;
+    background-color:#FFF;
+    color:#0B7BA6;
+    padding-left:10px;
+    margin-bottom:8px;
+    width: 257px;
+}
+.accordion div li{
+    list-style:none;
+}
+.accordion div a{
+    text-decoration:none;
+    color:#2a5fa3;
+}
+
+.tdh:hover{
+    background:#000;
+}
+
+.no-border{
+    border: none !important;
+}
+.mn_cpt {
+    border: 0px !important;
+    padding: 0px !important;
+    width: 200px !important;
+}
+.mn_cpt h3 {
+    display:block;
+    border: none !important;
+    height: 20px;
+    width: 257px;
+}
+.mn_cpt h3 a {
+    margin-left: 12px;
+    text-decoration:none;
+    position: relative !important;
+    top: -4px !important;
+    font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    font-size: 12px !important;
+    outline: 0 !important;
+}
+.mn_cpt h3 a:active {
+    color:#072d5e;
+}
+.mn_cpt h3 a:visited {
+    color:#072d5e;
+}
+
+.mn_cpt h3 img {
+    margin-top: 2px;
+    margin-left: 5px;
+    /*margin-top: 2px;*/
+}
+
+.mn_cpt div li{
+    list-style:none;
+    padding: 1px;
+    font-size: 12px !important;
+}
+.mn_cpt div li img{
+    padding-left: 8px;
+}
+.mn_cpt div a{
+    text-decoration:none;
+    color:#2a5fa3;
+    padding-left: 5px;
+    position: relative;
+    top: -5px;
+    outline: 0 !important;
+}
+
+#message{
+    position: absolute;
+    top:12px;
+    left: 520px;
+    width:350px;
+    text-align: center;
+    color: #5e5e5e;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#logout{
+    position: relative;
+    top: -8px;
+    margin-left: 55px;
+    text-decoration: none;
+    font-size: 13px;
+}
+/*
+#busqueda fieldset{
+    border: 1px solid #DDD;
+    padding: 5px;
+}
+#busqueda legend{
+    display: block;
+    margin-left: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#busqueda{
+    margin-bottom: 10px;
+}*/
+.lvlacordion{
+    width: 245px !important;;
+}
+.tituloGrid{
+    z-index: 1000;
+    margin-left: 720px;
+    font-size: 20px;
+    top: 42px;
+    position: relative;
+    z-index: 1001;
+    color: #0727B6;
+    width: 500px;
+    text-align: right;
+}
+
+

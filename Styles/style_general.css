@@ -1,0 +1,271 @@
+/*
+|---------------------------------------------------------------
+| CSS style_general.css
+|---------------------------------------------------------------
+| @Autor: Kenyi M. Caycho Coyocusi
+| @Fecha de creacion: 07/12/2010
+| @Fecha de Modificacion: 30/12/2010
+| @Organizacion: KND S.A.C.
+|---------------------------------------------------------------
+| Pagina para los estilos generales del proyecto
+*/
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family:Verdana, Arial, sans-serif;
+    font-size:12px;
+}
+
+#nav_sup{
+    padding-left:20px;
+    background-color:#E6E6E6;
+    clear:both
+}
+
+.btnAcceso{
+    position: relative;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-color: #E1F1D1;
+    border: solid 2px #E1F1D1;
+    cursor: pointer;
+    color: #1A3B82;
+}
+
+.error{
+    border: solid 1px #cd0a0a !important;
+}
+.asterisk{
+    color: #cd0a0a;
+    width: 0px;
+}
+.asterisk2{
+    color: #cd0a0a;
+    width: 200px;
+}
+#nav_Acceso{
+    padding-top: 15px;
+    background-color: #1A3B82;
+    height: 30px;
+}
+
+#logo_empresa{
+    float:right;
+    position:relative;
+    padding-right:20px;
+}
+
+#tabs{
+    width:860px;
+}
+
+#div_tabs ul li{
+    display: inline;
+}
+
+#div_tabs{
+    height: 30px;
+}
+
+.mayuscula{
+    text-transform:uppercase;
+}
+
+.numero{
+    text-align:right;
+}
+
+.moneda{
+    text-align:right;
+}
+
+.touch{
+    text-align: center;
+    font-size: 23px !important;
+}
+
+input[type='text']:focus{
+    background-color: #E1F1D1;
+}
+
+#herramienta{
+    padding:5px 5px 5px 20px;
+    margin-bottom:5px;
+    background-color: #E1F1D1;
+    -moz-border-radius-topleft: 5px;
+    -khtml-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -khtml-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    font-weight: bold;
+}
+.enabled:hover{
+    background-color: #93a685;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -khtml-border-radius:2px;
+}
+
+#tabs-2, #tabs-1{
+    clear:both;
+
+}
+
+.alerta{
+    width:220px;
+    padding:10px;
+    background-color:#FCF8F3;
+    margin: 1em .5em;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border:1px solid #DF4300;
+}
+
+.disabled{
+    opacity:.4 ;
+    filter:alpha(opacity=30);
+}
+
+.enabled{
+    cursor:pointer;
+}
+
+.btnGrid{
+    width: 18px;
+    height: 18px;
+    border: 0px;
+}
+
+.btnPermiso{
+    width: 26px;
+    height: 26px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btnMenu{
+    width: 26px;
+    height: 26px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 0px;
+}
+
+.separator{
+    height:25px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.piepagina{
+    bottom:0;
+    height:60px;
+    left:0;
+    position:fixed;
+    width:100%;
+}
+
+.HideMenu{
+    position: relative;
+    padding-top: 8px;
+    padding-left: 15px;
+    height: 85px;
+    width: 20px;
+    margin-left: 245px;
+    top: 12px;
+    -moz-border-radius-bottomright:8px;
+    -webkit-border-top-right-radius:8px;
+    -moz-border-radius-topright:8px;
+    -webkit-border-bottom-right-radius:8px;
+    background-image:url("../Images/HideMenu.png");
+    background-color: #E1F1D1;
+    background-position:center center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    border-right: solid 1px #DF4300;
+    border-top: solid 1px #DF4300;
+    border-bottom: solid 1px #DF4300;
+}
+
+.ShowMenu{
+    position: relative;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 87px;
+    width: 20px;
+    margin-left: 0px;
+    top: 12px;
+    -moz-border-radius-bottomright:8px;
+    -webkit-border-top-right-radius:8px;
+    -moz-border-radius-topright:8px;
+    -webkit-border-bottom-right-radius:8px;
+    background-image:url("../Images/ShowMenu.png");
+    background-color: #E1F1D1;
+    background-position:center center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    border-right: solid 1px #DF4300;
+    border-top: solid 1px #DF4300;
+    border-bottom: solid 1px #DF4300;
+}
+
+.borderGrid{
+    border-top: solid 1px #C8C8C8;
+}
+
+.borderGridBottom{
+    border-bottom:solid 1px #C8C8C8;
+}
+
+.celArticulo{
+    height: 45px;
+}
+
+.celFamilia{
+    cursor: pointer;
+    height: 50px;
+}
+
+.tbl_ListArticulos{
+    min-width: 83px;
+    max-width: 83px;
+    min-height: 73px;
+    max-height: 73px;
+
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    border: solid 1px #C8C8C8;
+}
+
+.btncalc{
+    cursor: pointer;
+    background-color: #CDD6ED;
+    border: solid 1px #C8C8C8;
+}
+
+.comment-content {
+    width: 70%;
+    float: right;
+    background: #E1F1D1;
+    padding: 15px;
+    min-height: 115px;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 15px;
+    -moz-border-radius:    15px;
+    border-radius:         15px;
+    border-top: 1px solid #ccc;
+    z-index: 2;
+}
+

@@ -1,0 +1,61 @@
+/*
+|---------------------------------------------------------------
+| CSS message.css
+|---------------------------------------------------------------
+| @Autor: Kelvin M. Carrion Alfaro
+| @Fecha: 05/06/2010
+| @Modificado por: Gerardo D. Ayquipa de la Cruz
+| @Ultima fecha de modificacion: 25/01/2011
+| @Organizacion: KND S.A.C.
+|---------------------------------------------------------------
+| Pagina donde se encuentra todos los estilos aplicados las alertas de mensajes
+*/
+
+.dialog{
+    top:300px;
+    left: 590px;
+    z-index: 2010;
+    position: absolute;
+    border: solid 1px #A3BAE9;
+    -moz-box-shadow:0 5px 10px #CCC;
+    -webkit-box-shadow:0 5px 10px #CCC;
+    -moz-border-radius: 5px 5px 5px 5px;
+    background-color: #DFE8F6;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    min-height: 80px;
+}
+
+.dialog2{
+    top:300px;
+    left: 550px;
+    z-index: 2010;
+    position: absolute;
+    border: solid 1px #A3BAE9;
+    -moz-box-shadow:0 5px 10px #CCC;
+    -webkit-box-shadow:0 5px 10px #CCC;
+    -moz-border-radius: 5px 5px 5px 5px;
+    background-color: #DFE8F6;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    min-height: 80px;
+}
+
+/* base semi-transparente */
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index:1010;
+    opacity:.75;
+    -moz-opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+

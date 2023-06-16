@@ -1,0 +1,93 @@
+/*
+|---------------------------------------------------------------
+| CSS jquery.carouFredSel-3.1.0.css
+|---------------------------------------------------------------
+| @Autor: Gerardo D. Ayquipa de la Cruz
+| @Fecha de creacion: 22/01/2011
+| @Modificado por: Gerardo D. Ayquipa de la Cruz
+| @Ultima fecha de modificacion: 26/01/2011
+| @Organizacion: KND S.A.C.
+|---------------------------------------------------------------
+| Pagina donde se encuentra los estilos del carousel de imagenes del index
+*/
+
+.image_carousel {
+    padding: 0 0 0 0;
+    position: relative;
+    width: 540px;
+}
+
+.image_carousel li {
+    border: 0px solid #ccc;
+    background-color: white;
+    padding: 5px 2px 5px 2px;
+    margin: 0px;
+    display: block;
+    float: left;
+}
+
+a.prev {    
+    width: 28px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    top: 95px;
+    left : -15px;
+}
+
+a.next {
+    width: 28px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    top: 95px;
+    left : 370px;
+}
+
+a.prev {
+    background: url(../Images/iconos/flechas.png) no-repeat transparent;
+    background-position: 0 1px;
+}
+
+a.prev:hover {
+    background-position: 0 -32px;
+}
+
+a.next {
+    background: url(../Images/iconos/flechas.png) no-repeat transparent;
+    background-position: -32px 1px;
+}
+
+a.next:hover {
+    background-position: -32px -32px;    
+}
+
+a.prev span, a.next span {
+    display: none;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    background: url(../Images/iconos/paginacion.png) 0 0 no-repeat transparent;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px 0 0;
+    display: inline-block;
+}
+
+.pagination a.selected {
+    background-position: -12px 0;
+    cursor: default;
+}
+
+.pagination a span {
+    display: none;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}

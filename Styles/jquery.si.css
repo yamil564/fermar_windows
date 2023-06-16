@@ -1,0 +1,131 @@
+/*
+|---------------------------------------------------------------
+| CSS jquery.si.css
+|---------------------------------------------------------------
+| @Modificado por: Gerardo D. Ayquipa de la Cruz
+| @Ultima fecha de modificacion: 26/01/2011
+| @Organizacion: KND S.A.C.
+|---------------------------------------------------------------
+| Pagina que contiene los estilos para los botones de adjuntar archivos de la libreria jquery.si
+*/
+div.si label.cabinet {
+	width: 156px;
+	height: 25px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	float: left;
+        cursor: pointer;
+}
+div.si label.cabinet2 {
+	width: 25px;
+	height: 20px;
+	display: inline;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	float: left;
+        left: 5px;
+        top: 0px;
+        cursor: pointer;
+}
+div.si label.cabinet3 {
+	width: 156px;
+	height: 25px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	float: left;
+        cursor: pointer;
+}
+div.si label.cabinet input {
+	position: relative;
+	left: -140px;
+	top: 0;
+	height: 100%;
+	/*width: auto !important;*/
+        width: 100px;
+	z-index: 2;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        cursor: pointer;
+}
+div.si{
+    cursor: pointer;
+}
+div.si label.cabinet2 input {
+	position: relative;
+	left: -0px;
+	top: 0;
+	height: 100%;
+	/*width: auto !important;*/
+        width: 25px;
+	z-index: 2;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        cursor: pointer;
+}
+div.si label.cabinet3 input {
+	position: relative;
+	left: -140px;
+	top: 0;
+	height: 100%;
+	/*width: auto !important;*/
+        width: 100px;
+	z-index: 2;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        cursor: pointer;
+}
+div.si div.uploadButton {
+	position: relative;
+	float: left;
+        cursor: pointer;
+}
+div.si div.uploadButton2 {
+	position: relative;
+	float: left;
+        cursor: pointer;
+}
+div.si div.uploadButton3 {
+	position: relative;
+	float: left;
+        cursor: pointer;
+}
+div.si div.uploadButton div {
+	width: 128px;
+	height: 25px;
+	background: url(../Images/iconos/adjuntar.png) 0 0 no-repeat;
+	left: -156px;
+	position: absolute;
+	z-index: 0;
+        cursor: pointer;
+}
+div.si div.uploadButton2 div {
+	width: 25px;
+	height: 20px;
+	background: url(../Images/iconos/pdficon.png) 0 0 no-repeat;
+	left: -20px;
+	position: absolute;
+	z-index: 1;
+        cursor: pointer;
+}
+div.si div.uploadButton3 div {
+	width: 156px;
+	height: 25px;
+	background: url(../Images/iconos/seleccionar_fotos.png) 0 0 no-repeat;
+	left: -156px;
+	position: absolute;
+	z-index: 1;
+        cursor: pointer;
+}
+div.si label.selectedFile {
+	margin-left: 5px;
+	line-height: 20px;
+        cursor: pointer;
+}

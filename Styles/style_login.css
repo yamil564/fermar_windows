@@ -1,0 +1,93 @@
+/*
+|---------------------------------------------------------------
+| CSS style_login.css
+|---------------------------------------------------------------
+| @Autor: Kenyi M. Caycho Coyocusi
+| @Fecha de creacion: 07/12/2010
+| @Organizacion: KND S.A.C.
+|---------------------------------------------------------------
+| Pagina para los estilos del login
+*/
+
+#contenedor{
+    width:337px;
+    margin:75px auto 0 auto;
+}
+form{
+    -moz-border-radius:11px;
+    -webkit-border-radius:11px;
+    -moz-box-shadow:0 4px 18px #C8C8C8;
+    -webkit-box-shadow:0 4px 18px #C8C8C8;
+    margin-left:5px;
+    border:1px solid #E5E5E5;
+    padding:16px 16px 40px;
+}
+
+label{
+    color:#777777;
+    font-size:13px;
+}
+
+#txtUser,#txtPassword{
+    width:280px;
+    height:30px;
+    font-size:20px;
+}
+
+#login_btn{
+    padding-left:95px;
+}
+
+#login_recor{
+    float:left;
+}
+
+#footer{
+    margin-top:10px;
+    float:right;
+    padding-right:8px;
+}
+
+#footer a{
+    color:#699BE7;
+    text-decoration:none;
+}
+
+#footer a:hover{
+    color:#D23422;
+}
+
+form .chkRecordar label{
+    font-size:11px;
+    line-height:19px;
+}
+
+#chkRecordarme{
+    margin-right:5px;
+}
+
+input[type='password']:focus{
+    background-color: #E1F1D1;
+}
+
+a.button{
+    background:url(../Images/button.gif) no-repeat;
+    display:block;
+    color:#555555;
+    font-weight:bold;
+    height:30px;
+    line-height:29px;
+    margin-bottom:14px;
+    text-decoration:none;
+    width:191px;
+}
+
+a:hover.button{
+    color:#0066CC;
+}
+
+.login{
+    background:url(../Images/user.gif) no-repeat 10px 8px;
+    text-indent:50px;
+    display:block;
+}
